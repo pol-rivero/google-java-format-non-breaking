@@ -71,7 +71,7 @@ public abstract class Doc {
    * <p>The value was selected to be obviously too large for any practical line, but small enough to
    * prevent accidental overflow.
    */
-  public static final int MAX_LINE_WIDTH = 1000;
+  public static final int MAX_LINE_WIDTH = Integer.MAX_VALUE / 256;
 
   /** State for writing. */
   public static final class State {

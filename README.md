@@ -1,3 +1,16 @@
+# google-java-format-non-breaking
+
+> [!NOTE]
+> For simplicity, instead of removing the line length limits, they have been increased to 10000 characters. This should be sufficient for most use cases.  
+> Additionally, the tests have NOT been modified. In order to build the project, use `-DskipTests`.
+
+**Build and copy the JAR file:**
+
+```sh
+mvn package -DskipTests
+cp core/target/google-java-format-HEAD-SNAPSHOT-all-deps.jar /path/to/destination
+```
+
 # google-java-format
 
 `google-java-format` is a program that reformats Java source code to comply with
