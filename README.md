@@ -7,6 +7,9 @@
 **Build and copy the JAR file:**
 
 ```sh
+# Make sure you are using Java 21, for example:
+sudo archlinux-java set java-21-openjdk
+
 mvn package -DskipTests
 cp core/target/google-java-format-HEAD-SNAPSHOT-all-deps.jar /path/to/destination
 ```
